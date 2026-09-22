@@ -1,0 +1,161 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-plugin-marketplace",
+  "description": "Aggregated marketplace mirroring all Claude Code plugins installed by Fabian Morf, sourced from their original repos.",
+  "owner": {
+    "name": "Fabian Morf",
+    "email": "fabi47324@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "markitdown",
+      "description": "Convert PDF, Word, PowerPoint, Excel, HTML, images, audio, EPUB, ZIP and YouTube URLs to Markdown using Microsoft's MarkItDown.",
+      "author": { "name": "Fabian Morf" },
+      "category": "productivity",
+      "source": "./plugins/markitdown"
+    },
+    {
+      "name": "caveman",
+      "description": "Ultra-compressed communication mode. Shortens prose while preserving technical terms, code, commands, and exact errors.",
+      "author": { "name": "Julius Brussee", "url": "https://github.com/JuliusBrussee" },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/JuliusBrussee/caveman.git",
+        "path": "."
+      }
+    },
+    {
+      "name": "claude-mem",
+      "description": "Memory compression system for Claude Code - persist context across sessions.",
+      "author": { "name": "Alex Newman" },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thedotmack/claude-mem.git",
+        "path": "plugin"
+      }
+    },
+    {
+      "name": "context-mode",
+      "description": "MCP server that saves context window with sandboxed code execution, FTS5 knowledge base and session continuity.",
+      "author": { "name": "Mert Koseoglu", "url": "https://github.com/mksglu" },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mksglu/context-mode.git",
+        "path": "."
+      }
+    },
+    {
+      "name": "security-sweep",
+      "description": "Comprehensive security scanner for codebases - hardcoded secrets, injection flaws, auth issues, misconfigurations, AI-specific vulnerabilities. Covers OWASP Top 10, Mobile Top 10, and LLM Top 10.",
+      "author": { "name": "onomeaj", "url": "https://github.com/onomeaj" },
+      "category": "security",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/onomeaj/security-sweep-plugin.git",
+        "path": "."
+      }
+    },
+    {
+      "name": "obsidian",
+      "description": "Claude Skills for Obsidian - wikilinks, callouts, Bases, Canvas, CLI, and vault management.",
+      "author": { "name": "Steph Ango", "url": "https://stephango.com/" },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kepano/obsidian-skills.git",
+        "path": "."
+      }
+    },
+    {
+      "name": "pyright-lsp",
+      "description": "Python language server (Pyright) for type checking and code intelligence.",
+      "author": { "name": "Anthropic", "email": "support@anthropic.com" },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/pyright-lsp"
+      }
+    },
+    {
+      "name": "commit-commands",
+      "description": "Commands for git commit workflows including commit, push, and PR creation.",
+      "author": { "name": "Anthropic", "email": "support@anthropic.com" },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/commit-commands"
+      }
+    },
+    {
+      "name": "security-guidance",
+      "description": "Security review for Claude-generated code - pattern-based edit warnings, LLM-powered diff review, agentic commit reviewer.",
+      "author": { "name": "Anthropic", "email": "support@anthropic.com" },
+      "category": "security",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/security-guidance"
+      }
+    },
+    {
+      "name": "code-review",
+      "description": "Automated code review for pull requests using multiple specialized agents with confidence-based scoring.",
+      "author": { "name": "Anthropic", "email": "support@anthropic.com" },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/code-review"
+      }
+    },
+    {
+      "name": "context7",
+      "description": "Upstash Context7 MCP server for up-to-date, version-specific documentation lookup.",
+      "author": { "name": "Upstash" },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "external_plugins/context7"
+      }
+    },
+    {
+      "name": "claude-md-management",
+      "description": "Tools to maintain and improve CLAUDE.md files - audit quality, capture session learnings, keep project memory current.",
+      "author": { "name": "Anthropic", "email": "support@anthropic.com" },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/claude-md-management"
+      }
+    },
+    {
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality.",
+      "author": { "name": "Anthropic", "email": "support@anthropic.com" },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/frontend-design"
+      }
+    },
+    {
+      "name": "playwright",
+      "description": "Browser automation and end-to-end testing MCP server by Microsoft.",
+      "author": { "name": "Microsoft" },
+      "category": "testing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "external_plugins/playwright"
+      }
+    }
+  ]
+}

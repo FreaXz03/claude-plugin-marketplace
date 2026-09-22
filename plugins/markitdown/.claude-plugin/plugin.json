@@ -1,0 +1,10 @@
+{
+  "name": "markitdown",
+  "version": "0.1.0",
+  "description": "Convert PDF, Word, PowerPoint, Excel, HTML, images, audio, EPUB, ZIP and YouTube URLs to Markdown using Microsoft's MarkItDown.",
+  "author": {
+    "name": "Fabian Morf"
+  },
+  "license": "MIT",
+  "keywords": ["markdown", "pdf", "docx", "pptx", "xlsx", "conversion", "markitdown"]
+}
